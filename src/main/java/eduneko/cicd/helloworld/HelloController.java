@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    final static String message = "Hello CI/CD World!";
+    final static String message = "Bom dia, Mundo CI/CD!";
 
     @RequestMapping("/")
     public String index() {
